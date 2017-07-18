@@ -1,0 +1,47 @@
+.hero-image {
+  height: 400px;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 12, 107, 0.50), rgba(0, 12, 107, 0.55)),
+    url(http://i.imgur.com/ZrfULLo.png);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.text-container {
+  z-index: 100;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-color: pink;
+
+}
+
+.hero-image-header {
+  color: chocolate;
+  font-weight: 100;
+  text-shadow: 1px 1px #000000;
+}
+
+.body-text {
+  width: 500px;
+  display: flex;
+  color: white;
+  text-align: center;
+  text-shadow:  2px 1px #000000;
+
+}
+
+.middle{
+  border-color: black;
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+}
