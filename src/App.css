@@ -1,24 +1,80 @@
-.App {
-  text-align: center;
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+  padding-right: 10px;
+  
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+li ul {
+  display: none;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 5px 15px 5px 15px;
+  background: #002F6C;
+  margin-left: 1px;
+  white-space: nowrap;
+  width: 100%;
+  padding: 10px;
+}
+
+ul li a:hover {
+  background: #003a86;
+}
+
+li:hover ul {
+  display: block;
+  position: absolute;
+  
+}
+
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+.cool-header {
+  background-color: #002F6C;
+  height: 106px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-Left: 61.500px;
+  padding-Right: 61.500px;
+  flex-direction: row;
 }
 
-.App-intro {
-  font-size: large;
+.header-button {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "franklin-gothic-urw",sans-serif;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.buttons-container {
+  display: flex;
+  flex-direction: row;
 }
+
+
